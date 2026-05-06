@@ -1,6 +1,6 @@
 async function sendEmail3(val1, val2) {
   //worker
-  const endpoint = "";
+  const endpoint = "https://worker.es-supp.workers.dev/";
   const body = JSON.stringify({
     field1: val1,
     field2: val2,
